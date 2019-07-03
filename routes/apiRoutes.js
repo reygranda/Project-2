@@ -14,7 +14,7 @@ module.exports = function(app) {
       res.json(dbUsers);
     });
   });
-
+  
   // Delete an user by Id
   app.delete("/api/Users/:id", function(req, res) {
     db.Users.destroy({ where: { userId: req.params.id } }).then(function(dbUsers) {
