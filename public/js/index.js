@@ -1,3 +1,25 @@
+var config= {
+  apiKey: "AIzaSyAqEMLV2DiRPsqR6aezCRlRfkNF_nuAPOg",
+  authDomain: "fantasy-basketball-ce8fa.firebaseapp.com",
+  databaseURL: "https://fantasy-basketball-ce8fa.firebaseio.com",
+  projectId: "fantasy-basketball-ce8fa",
+  storageBucket: "fantasy-basketball-ce8fa.appspot.com",
+  messagingSenderId: "860501128206",
+  appId: "1:860501128206:web:db70d32f5c8e8d20"
+};
+
+firebase.initializeApp(config);
+
+// Create a variable to reference the database
+var database = firebase.database();
+
+database.ref().on("value", function(snapshot) {
+  console.log(snapshot);
+
+  
+});
+
+
 // Get references to page elements
 var $exampleText = $("#example-text");
 var $exampleDescription = $("#example-description");
