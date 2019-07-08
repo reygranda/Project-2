@@ -27,5 +27,12 @@ body {
     color: #CCDDE2;
     font-size: 20px;
     font-family: 'Montserrat', sans-serif;
+}
 
+.player:hover {
+    border: 2px solid white;
+}
+
+.badge:hover {
+    border: 2px solid white;
 }
