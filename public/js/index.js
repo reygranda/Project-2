@@ -1,4 +1,4 @@
-var config= {
+config= {
   apiKey: "AIzaSyAqEMLV2DiRPsqR6aezCRlRfkNF_nuAPOg",
   authDomain: "fantasy-basketball-ce8fa.firebaseapp.com",
   databaseURL: "https://fantasy-basketball-ce8fa.firebaseio.com",
@@ -55,3 +55,4 @@ database.ref().on("child_added", function(childSnapshot) {
 });
 
 
+module.exports = config;
