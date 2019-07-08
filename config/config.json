@@ -1,14 +1,14 @@
 {
   "development": {
     "username": "root",
-    "password": "Miamicodingbootcamp*",
+    "password": "Star181son275",
     "database": "fantasydb",
     "host": "localhost",
     "dialect": "mysql"
   },
   "test": {
     "username": "root",
-    "password": "Miamicodingbootcamp*",
+    "password": "Star181son275",
     "database": "fantasydb",
     "host": "localhost",
     "dialect": "mysql",
